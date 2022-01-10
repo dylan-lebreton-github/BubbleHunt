@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>BubbleHunt</title>
+	<link rel="stylesheet" media="screen" href="./css/styles.css" type="text/css"/>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="./js/code.js"></script>
+</head>
+
+<body>
+
+	<!-- Elements de l'ecran d'accueil -->
+	<div id="ecranAccueil">
+		<div id="titre">BubbleHunt</div>
+		<div id="image"><img src="./img/bubblehunt.png" alt="Image du jeu"></div>
+		<div id="regles"><p>Deplacez la bulle bleue avec la souris pour attraper les seules bulles vertes en évitant les noires. Au bout de trois bulles noires touchées, le jeu s'arrête.</p></div>
+		<div id="boutonJouer"><input type="submit" value="Jouer"></div>
+	</div>
+	
+	<!-- Elements de l'ecran de jeu -->
+	<div id="ecranJeu">
+		<div id="score">(score)</div>
+		<div id="niveau">(niveau)</div>
+		<div id="vies">(vies)</div>
+		<div id="temps">(temps)</div>
+		<div id="animation">
+			<canvas id="dessin" width="450" height="300">
+				Votre navigateur ne supporte pas l'animation du jeu.
+			</canvas>
+		</div>
+		<div id="boutonQuitter"><input type="submit" value="Quitter"></div>
+	</div>
+	
+	<!-- Elements de l'ecran bilan -->
+	<div id="ecranBilan">
+		<div id="scoreFinal">(score)</div>
+		<div id="niveauFinal">(niveau)</div>
+		<div id="boutonAccueil"><input type="submit" value="Accueil"></div>
+		<div id="boutonRejouer"><input type="submit" value="Rejouer"></div>
+	</div>
+	
+	<footer>BubbleHunt v1.0</footer>
+	
+	</body>
+	</html>
+	
